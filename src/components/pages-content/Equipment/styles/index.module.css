@@ -3,6 +3,7 @@
     font-weight: 500;
     padding: 30px 0;
     background-color: var(--color-white);
+    overflow-x: clip;
 }
 
 .container {
@@ -75,4 +76,94 @@
     font-weight: 500;
     font-size: 24px;
     color: var(--color-shadow-mountain);
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .itemTitle {
+    width: 220px;
+    font-size: 28px;
+  }
+
+  .itemDescription {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .item {
+    gap: 24px;
+  }
+
+  .itemTitle {
+    width: 180px;
+    font-size: 24px;
+  }
+
+  .itemDescription {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .list {
+    gap: 28px;
+  }
+
+  .item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .itemTitle {
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+  }
+
+ 
+
+  .itemTitle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    
+    width: 100%;
+    border: 2px solid var(--color-orange-danger);
+    border-radius: 15px;
+    
+  }
+}
+
+@media (max-width: 640px) {
+  .equipment {
+    padding: 24px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .itemTitle {
+    font-size: 22px;
+  }
+
+  .itemDescription {
+    font-size: 17px;
+  }
+  
 }

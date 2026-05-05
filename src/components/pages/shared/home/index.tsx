@@ -17,8 +17,8 @@ export const HomePage = () => {
       <main className={styles.main}>
           <GetStarted />
           <Advantages />
-         <LevelEducation />
-         <Equipment />
+          <LevelEducation />
+          <Equipment />
       </main>
     </div>
   );

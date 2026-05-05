@@ -53,3 +53,57 @@
     font-size: 24px;
     color: var(--color-shadow-mountain);
 }
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 20px;
+    gap: 40px;
+  }
+
+  .itemTitle {
+    font-size: 28px;
+  }
+
+  .itemDescription {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .list {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .levelEducation {
+    padding: 24px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .item {
+    gap: 10px;
+  }
+
+  .itemTitle {
+    font-size: 22px;
+  }
+
+  .itemDescription {
+    font-size: 17px;
+  }
+}
