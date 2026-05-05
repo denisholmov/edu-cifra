@@ -6,6 +6,19 @@
  align-items: center;
 }
 
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo img {
+  width: 325px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .nav {
   display: flex;
   justify-content: center;

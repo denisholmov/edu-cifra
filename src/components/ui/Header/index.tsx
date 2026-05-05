@@ -2,7 +2,7 @@ import styles from "./styles/index.module.css";
 export const HeaderUI = () => {
   return (
     <header className={styles.header}>
-      <div>
+      <div className={styles.logo}>
         <img src="./public/images/logo.png" alt="Логотип компании" />
       </div>
       <nav className={styles.nav}>
