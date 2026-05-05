@@ -1,5 +1,7 @@
 .getStarted {
-  background-color: var(--color-gray);
+  background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 75%, #db6e00 100%);
+  padding-top: 240px;
+  padding-bottom: 70px;
 }
 
 .container {
@@ -7,6 +9,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .content {
@@ -15,4 +18,45 @@
 
   justify-content: center;
   align-items: start;
+}
+
+.title {
+ margin-bottom: 30px;
+  font-family: Sansation;
+  font-size: 64px;
+  font-weight: 700;
+ 
+  color: var(--color-off-black);
+}
+
+.description {
+  font-size: 32px;
+  color: var(--color-off-black);
+  max-width: 700px;
+  margin-bottom: 65px;
+}
+
+.buttons {
+  display: flex;
+  gap: 26px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 10px 40px;
+  border-radius: 7px;
+  font-size: 32px;
+  background-color: var(--color-orange-danger);
+  color: var(--color-white);
+  border: 2px solid var( --color-orange-danger);
+}
+
+.buttonTransparent{
+  background-color: transparent;
+ color: var(--color-off-black);
+}
+
+.button:hover{
+  opacity: 0.7;
 }

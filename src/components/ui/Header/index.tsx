@@ -2,7 +2,8 @@ import styles from "./styles/index.module.css";
 export const HeaderUI = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+     <div className={styles.container}>
+     <div className={styles.logo}>
         <img src="./public/images/logo.png" alt="Логотип компании" />
       </div>
       <nav className={styles.nav}>
@@ -24,6 +25,7 @@ export const HeaderUI = () => {
           </li>
         </ul>
       </nav>
+     </div>
     </header>
   );
 };
