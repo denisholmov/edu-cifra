@@ -1,0 +1,10 @@
+/* src/components/ui/Search/Search.module.css */
+.search .searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.compact .searchIcon {
+  width: 16px;
+  height: 16px;
+}

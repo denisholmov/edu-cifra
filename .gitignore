@@ -1,0 +1,16 @@
+# Зависимости
+node_modules/
+
+# Сборка Vite
+dist/
+dist-ssr/
+
+# Локальные env (уже есть в корневом, но для надёжности)
+.env
+.env.local
+.env.production.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

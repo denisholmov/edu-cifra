@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+ padding: 36px 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  padding: 10px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  background-color: var(--color-orange-danger);
+  border-radius: 8px;
+}
+
+.link { 
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}

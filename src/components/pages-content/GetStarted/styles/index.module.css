@@ -1,0 +1,18 @@
+.getStarted {
+  background-color: var(--color-gray);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: start;
+}
