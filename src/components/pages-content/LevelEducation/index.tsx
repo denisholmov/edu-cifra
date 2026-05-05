@@ -17,7 +17,7 @@ export const LevelEducation = () => {
                 <h3 className={styles.itemTitle}>Школы</h3>
                 <p className={styles.itemDescription}>Для популяризации технических направлений среди школьников и обучения базовым навыкам программирования и работы с нейросетями</p>
             </li>
-            <li>
+            <li className={styles.item}>
                 <h3 className={styles.itemTitle}>Дополнительное образование</h3>
                 <p className={styles.itemDescription}>Для формирования интереса к сфере БАС и роботов, развития инженерного мышления и соревновательной культуры</p>
             </li>
