@@ -36,17 +36,20 @@
     align-items: start;
     gap: 15px;
 
-    font-family: Manrope;
-    font-weight: 500;
+
 
 }
 
 .itemTitle {
+    font-family: Manrope;
+    font-weight: 500;
     font-size: 32px;
     color: var(--color-off-black);
 }
 
 .itemDescription {
+    font-family: Manrope;
+    font-weight: 500;
     font-size: 24px;
     color: var(--color-shadow-mountain);
 }
