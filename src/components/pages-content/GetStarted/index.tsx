@@ -13,7 +13,7 @@ export const GetStarted = () => {
               </ul>
           </div>
 
-          <div className={styles.img}>
+          <div className={styles.image}>
               <img src="./public/images/emblem.png" alt="Эмблема компании" />
           </div>
         </div>
