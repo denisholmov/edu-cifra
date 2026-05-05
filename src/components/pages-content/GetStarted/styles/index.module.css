@@ -30,8 +30,9 @@
 }
 
 .description {
+ 
   font-size: 32px;
-  color: var(--color-off-black);
+  color: var(--color-shadow-mountain);
   max-width: 700px;
   margin-bottom: 65px;
 }

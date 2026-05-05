@@ -1,6 +1,9 @@
 .header {
   width: 100%;
  position: absolute;
+
+ font-family: Manrope;
+  font-weight: 500;
 }
 
 .container {
@@ -44,6 +47,9 @@
 }
 
 .link { 
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 20px;
   padding: 18px 20px;
   color: var(--color-white);
   text-decoration: none;
