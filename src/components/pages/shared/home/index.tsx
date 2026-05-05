@@ -10,9 +10,9 @@ export const HomePage = () => {
     <div className={styles.wrapper}>
       <AppHeader />
       <main className={styles.main}>
-        <GetStarted />
-        секция 2
-        секция 3
+          <GetStarted />
+        <section id="team">секция 2</section>
+        <section id="contacts">секция 3</section>
       </main>
     </div>
   );

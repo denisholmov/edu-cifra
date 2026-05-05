@@ -13,19 +13,20 @@
 }
 
 .list {
-  padding: 10px 3px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 
   background-color: var(--color-orange-danger);
   border-radius: 8px;
 }
 
 .link { 
+  padding: 8px 20px;
   color: var(--color-white);
-  font-size: 20px;
-  font-weight: 500;
   text-decoration: none;
+  display: inline-block;
 }
+

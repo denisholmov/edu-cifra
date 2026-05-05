@@ -2,7 +2,7 @@ import styles from "./styles/index.module.css";
 
 export const GetStarted = () => {
   return (
-    <section className={styles.getStarted}>
+    <section id="get-started" className={styles.getStarted}>
         <div className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Цифровые камеры</h1>
