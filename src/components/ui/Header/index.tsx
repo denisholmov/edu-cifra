@@ -4,7 +4,7 @@ export const HeaderUI = () => {
     <header className={styles.header}>
      <div className={styles.container}>
      <div className={styles.logo}>
-        <img src="./public/images/logo.png" alt="Логотип компании" />
+        <img src="/images/logo.png" alt="Логотип компании" />
       </div>
       <nav className={styles.nav}>
         <ul className={styles.list}>

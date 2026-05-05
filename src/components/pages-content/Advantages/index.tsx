@@ -8,7 +8,7 @@ export const Advantages = () => {
 
         <div className={styles.content}>
             <div className={styles.image}>
-                <img src="./public/images/cifra-mini.png" alt="Обучающий набор" />
+                <img src="/images/cifra-mini.png" alt="Обучающий набор" />
             </div>
             <p className={styles.description}>Обучающий набор для получения практических навыков 
 интеграции технического зрения в <br /> реальное «железо».</p>
@@ -17,7 +17,7 @@ export const Advantages = () => {
         <ul className={styles.list}>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="./public/images/book.png" alt="Методическое сопровождение" />
+                    <img src="/images/book.png" alt="Методическое сопровождение" />
                 </div>
                <div className={styles.itemContent}>
                <h3>Методическое сопровождение</h3>
@@ -26,7 +26,7 @@ export const Advantages = () => {
             </li>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="./public/images/cup.png" alt="Рыночная ценность" />
+                    <img src="/images/cup.png" alt="Рыночная ценность" />
                 </div>
                 <div className={styles.itemContent}>
                 <h3>Рыночная ценность</h3>
@@ -35,7 +35,7 @@ export const Advantages = () => {
             </li>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="./public/images/tools.png" alt="Востребованный стек" />
+                    <img src="/images/tools.png" alt="Востребованный стек" />
                 </div>
                 <div className={styles.itemContent}>
                 <h3>Востребованный стек</h3>
@@ -44,7 +44,7 @@ export const Advantages = () => {
             </li>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="./public/images/neurons.png" alt="Готовая образовательная среда" />
+                    <img src="/images/neurons.png" alt="Готовая образовательная среда" />
                 </div>
                 <div className={styles.itemContent}>
                 <h3>Готовая образовательная среда</h3>

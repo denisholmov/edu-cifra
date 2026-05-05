@@ -7,13 +7,13 @@
 @font-face {
   font-family: Manrope;
   font-weight: 500;
-  src: url("/public/fonts/Manrope-Medium.ttf") format("truetype");
+  src: url("/fonts/Manrope-Medium.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: Sansation;
   font-weight: 700;
-  src: url("/public/fonts/Sansation-Bold.ttf") format("truetype");
+  src: url("/fonts/Sansation-Bold.ttf") format("truetype");
   font-display: swap;
 }
