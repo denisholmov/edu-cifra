@@ -1,0 +1,78 @@
+.equipment {
+    font-family: Manrope;
+    font-weight: 500;
+    padding: 30px 0;
+    background-color: var(--color-white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+}
+
+.title {
+    font-family: Sansation;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-off-black);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+
+.item {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+
+   
+}
+
+.itemTitle {
+    position: relative;
+    
+
+    padding: 10px 0;
+    width: 260px;      
+    flex-shrink: 0;
+    white-space: nowrap;
+
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--color-off-black);
+}
+
+.itemTitle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    
+    width: 100vw;
+    border: 2px solid var(--color-orange-danger);
+    border-radius: 15px;
+    
+  }
+
+.itemDescription {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--color-shadow-mountain);
+}

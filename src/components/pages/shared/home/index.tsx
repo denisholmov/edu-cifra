@@ -5,6 +5,7 @@ import { Advantages } from "@/components/pages-content/Advantages";
 import { LevelEducation } from "@/components/pages-content/LevelEducation";
 
 import styles from "./styles/index.module.css";
+import { Equipment } from "@/components/pages-content/Equipment";
 
 
 export const HomePage = () => {
@@ -17,6 +18,7 @@ export const HomePage = () => {
           <GetStarted />
           <Advantages />
          <LevelEducation />
+         <Equipment />
       </main>
     </div>
   );
