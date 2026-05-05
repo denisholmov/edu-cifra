@@ -1,0 +1,52 @@
+.levelEducation {
+    font-family: Manrope;
+    font-weight: 500;
+    padding: 30px 0;
+    background-color: var(--color-white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 60px;
+}
+
+.title {
+    font-family: Sansation;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-off-black);
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;
+
+    font-family: Manrope;
+    font-weight: 500;
+
+}
+
+.itemTitle {
+    font-size: 32px;
+    color: var(--color-off-black);
+}
+
+.itemDescription {
+    font-size: 24px;
+    color: var(--color-shadow-mountain);
+}
