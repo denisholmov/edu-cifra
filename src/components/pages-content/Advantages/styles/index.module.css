@@ -40,7 +40,7 @@
 .image img {
   width: 585px;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .description {
@@ -73,7 +73,7 @@
 .icon img {
   width: 70px;
   height: 70px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 
