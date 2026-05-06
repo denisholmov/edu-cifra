@@ -7,8 +7,6 @@
 }
 
 
-    
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -116,6 +114,11 @@
   .image img {
     width: min(460px, 100%);
     margin: 0 auto;
+  }
+
+  .container::before {
+    content: "";
+    display: none;
   }
 }
 
