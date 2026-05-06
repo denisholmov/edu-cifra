@@ -1,0 +1,172 @@
+.cifraMini {
+    font-family: Manrope;
+    font-weight: 500;
+    padding: 90px 0 30px;
+    background-color: var(--color-white);
+    position: relative;
+}
+
+.cifraMini::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 700px;
+    height: 700px;
+    background: url('/images/emblem-cifra-mini.png');
+    background-size: cover;
+    z-index: 1;
+}
+    
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.title {
+    font-family: Sansation;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-off-black);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.description {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--color-shadow-mountain);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 585px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .cifraMini::before {
+    width: 560px;
+    height: 560px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 28px;
+  }
+
+  .image img {
+    width: min(520px, 100%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .cifraMini {
+    padding: 64px 0 30px;
+  }
+
+  .cifraMini::before {
+    width: 460px;
+    height: 460px;
+    opacity: 0.75;
+  }
+
+
+  .title {
+    font-size: 34px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .image img {
+    width: min(460px, 100%);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cifraMini {
+    padding: 48px 0 24px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .cifraMini::before {
+    width: 360px;
+    height: 360px;
+    opacity: 0.55;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .image img {
+    width: min(420px, 100%);
+  }
+}
+
+@media (max-width: 640px) {
+  .cifraMini {
+    padding: 36px 0 20px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .cifraMini::before {
+    width: 250px;
+    height: 250px;
+    opacity: 0.45;
+  }
+
+  .title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .description {
+    font-size: 17px;
+  }
+
+  .content {
+    gap: 14px;
+  }
+}
