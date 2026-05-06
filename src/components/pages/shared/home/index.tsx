@@ -8,6 +8,7 @@ import { ContentWorkshop } from "@/components/pages-content/ContentWorkshop";
 
 
 import styles from "./styles/index.module.css";
+import { Demo } from "@/components/pages-content/Demo";
 
 
 export const HomePage = () => {
@@ -22,6 +23,7 @@ export const HomePage = () => {
           <LevelEducation />
           <Equipment />
           <ContentWorkshop />
+          <Demo />
       </main>
     </div>
   );
