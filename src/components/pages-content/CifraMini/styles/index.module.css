@@ -3,26 +3,33 @@
     font-weight: 500;
     padding: 90px 0 30px;
     background-color: var(--color-white);
-    position: relative;
+   
 }
 
-.cifraMini::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 700px;
-    height: 700px;
-    background: url('/images/emblem-cifra-mini.png');
-    background-size: cover;
-    z-index: 1;
-}
+
     
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.container::before {
+
+  content: "";
+  position: absolute;
+  top: -90px;
+  left: -37%;
+  rotate: -8deg;
+  width: 700px;
+  height: 700px;
+  background: url('/images/emblem-cifra-mini.png');
+  background-size: cover;
+  z-index: 1;
+  opacity: 0.7;
 }
 
 .title {
@@ -30,6 +37,9 @@
     font-size: 48px;
     font-weight: 700;
     color: var(--color-off-black);
+    position: relative;
+    z-index: 2;
+
 }
 
 .content {
@@ -37,6 +47,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    position: relative;
+    z-index: 2;
 }
 
 .description {

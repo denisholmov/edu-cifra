@@ -11,6 +11,7 @@ import { ContentWorkshop } from "@/components/pages-content/ContentWorkshop";
 import styles from "./styles/index.module.css";
 import { Demo } from "@/components/pages-content/Demo";
 import { CifraMini } from "@/components/pages-content/CifraMini";
+import { AdvantagesCifraMini } from "@/components/pages-content/AdvantagesCifraMini";
 
 
 export const HomePage = () => {
@@ -27,6 +28,7 @@ export const HomePage = () => {
           <ContentWorkshop />
           <Demo />
           <CifraMini />
+          <AdvantagesCifraMini/>
       </main>
     </div>
   );

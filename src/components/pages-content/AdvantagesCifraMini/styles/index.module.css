@@ -1,0 +1,196 @@
+.advantagesCifraMini {
+    font-family: Manrope;
+    font-weight: 500;
+    padding: 50px 0;
+    background-color: var(--color-white);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+    font-family: Sansation;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-off-black);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  
+    margin-bottom: 30px;
+  }
+  
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image img {
+    width: 585px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .description {
+    font-size: 32px;
+    color: var(--color-shadow-mountain);
+    max-width: 700px;
+    
+  }
+  
+  .list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;
+  }
+  
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  
+  
+  .itemContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;
+  }
+  
+  .itemContent h3 {
+    font-size: 32px;
+    color: var(--color-off-black);
+  }
+  
+  .itemContent p {
+    font-size: 24px;
+    color: var(--color-shadow-mountain);
+  }
+  
+  @media (max-width: 1240px) {
+    .container {
+      padding: 0 20px;
+    }
+  
+    .image img {
+      width: 500px;
+    }
+  
+    .description {
+      font-size: 28px;
+    }
+  
+    .itemContent h3 {
+      font-size: 28px;
+    }
+  
+    .itemContent p {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .advantages {
+      padding: 40px 0;
+    }
+  
+    .title {
+      font-size: 40px;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .image img {
+      width: min(560px, 100%);
+    }
+  
+    .description {
+      max-width: 100%;
+      font-size: 24px;
+    }
+  
+    .description br {
+      display: none;
+    }
+  
+    .list {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .advantages {
+      padding: 32px 0;
+    }
+  
+    .container {
+      padding: 0 16px;
+    }
+  
+    .title {
+      font-size: 30px;
+      margin-bottom: 16px;
+    }
+  
+    .content {
+      margin-bottom: 20px;
+      gap: 16px;
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  
+    .item {
+      gap: 10px;
+    }
+  
+    .icon img {
+      width: 54px;
+      height: 54px;
+    }
+  
+    .itemContent {
+      gap: 8px;
+    }
+  
+    .itemContent h3 {
+      font-size: 22px;
+    }
+  
+    .itemContent p {
+      font-size: 17px;
+    }
+  }
