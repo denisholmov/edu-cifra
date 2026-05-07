@@ -12,6 +12,7 @@ import styles from "./styles/index.module.css";
 import { Demo } from "@/components/pages-content/Demo";
 import { CifraMini } from "@/components/pages-content/CifraMini";
 import { AdvantagesCifraMini } from "@/components/pages-content/AdvantagesCifraMini";
+import { Characteristics } from "@/components/pages-content/Characteristics";
 
 
 export const HomePage = () => {
@@ -29,6 +30,7 @@ export const HomePage = () => {
           <Demo />
           <CifraMini />
           <AdvantagesCifraMini/>
+          <Characteristics />
       </main>
     </div>
   );
