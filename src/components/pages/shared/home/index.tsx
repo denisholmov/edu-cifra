@@ -14,6 +14,7 @@ import { CifraMini } from "@/components/pages-content/CifraMini";
 import { AdvantagesCifraMini } from "@/components/pages-content/AdvantagesCifraMini";
 import { Characteristics } from "@/components/pages-content/Characteristics";
 import { Development } from "@/components/pages-content/Development";
+import { Connection } from "@/components/pages-content/Connection";
 
 
 export const HomePage = () => {
@@ -33,6 +34,7 @@ export const HomePage = () => {
           <AdvantagesCifraMini/>
           <Characteristics />
           <Development />
+          <Connection />
       </main>
     </div>
   );
