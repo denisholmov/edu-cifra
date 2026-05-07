@@ -23,11 +23,15 @@
 }
 
 .button {
+    display: inline-block;
     padding: 15px 30px;
     border-radius: 30px;
     font-size: 32px;
     color: var(--color-off-black);
     background-color: var(--color-white);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button:hover {

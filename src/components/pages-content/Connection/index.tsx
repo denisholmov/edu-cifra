@@ -14,7 +14,9 @@ export const Connection = () => {
 
         <ul className={styles.contacts}>
           <li>
-            <span className={styles.contact}>+7 (995) 630-14-25</span>
+            <a href="tel:+79956301425" className={styles.contact}>
+              +7 (995) 630-14-25
+            </a>
           </li>
           <li className={styles.separator}>|</li>
           <li>
