@@ -101,7 +101,7 @@
 
 .controlsVisible {
   position: absolute;
-  top: calc(50% - 24px);
+  top: calc(50% - 39px);
   left: -4px;
   right: -4px;
   transform: translateY(-50%);
