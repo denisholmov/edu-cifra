@@ -16,6 +16,7 @@ import { Characteristics } from "@/components/pages-content/Characteristics";
 import { Development } from "@/components/pages-content/Development";
 import { Connection } from "@/components/pages-content/Connection";
 import { Team } from "@/components/pages-content/Team";
+import { Footer } from "@/components/pages-content/Footer";
 
 
 export const HomePage = () => {
@@ -38,6 +39,7 @@ export const HomePage = () => {
           <Connection />
           <Team />
       </main>
+      <Footer />
     </div>
   );
 };

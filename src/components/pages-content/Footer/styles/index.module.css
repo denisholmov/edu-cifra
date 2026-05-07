@@ -1,0 +1,201 @@
+.footer {
+  background: var(--color-white);
+  border-top: 1px solid rgba(49, 49, 49, 0.12);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 34px 20px 26px;
+}
+
+.mainRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 36px;
+}
+
+.brandBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.brand {
+  margin: 0;
+  font-family: Sansation;
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--color-off-black);
+  line-height: 1;
+}
+
+.description {
+  margin: 0 0 30px 0;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-shadow-mountain);
+}
+
+.contactLink {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-off-black);
+  text-decoration: none;
+}
+
+.socials {
+  margin-top: 4px;
+  display: flex;
+  gap: 10px;
+}
+
+.social {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--color-shadow-mountain);
+  color: var(--color-white);
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  gap: 80px;
+  padding-top: 14px;
+}
+
+.item {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-off-black);
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  min-height: 100%;
+  gap: 24px;
+}
+
+.copyright {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.policy,
+.copy {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-shadow-mountain);
+  text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding-top: 28px;
+    padding-bottom: 20px;
+  }
+
+  .mainRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .brand {
+    font-size: 44px;
+  }
+
+  .description {
+    font-size: 28px;
+  }
+
+  .contactLink {
+    font-size: 30px;
+  }
+
+  .list {
+    width: 100%;
+    gap: 34px;
+    padding-top: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    font-size: 28px;
+  }
+
+  .copyright {
+    justify-content: flex-start;
+    gap: 14px 24px;
+  }
+
+  .policy,
+  .copy {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 24px 16px 18px;
+  }
+
+  .brand {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .contactLink {
+    font-size: 24px;
+  }
+
+  .social {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .list{
+    gap: 16px;
+  }
+
+  .item {
+    font-size: 22px;
+  }
+
+  .copyright {
+    margin-top: 18px;
+    gap: 10px;
+  }
+
+  .policy,
+  .copy {
+    font-size: 18px;
+  }
+}
