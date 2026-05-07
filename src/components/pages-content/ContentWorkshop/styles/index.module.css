@@ -51,7 +51,6 @@
 }
 
 
-
 .itemContent{
     position: relative;
     padding: 10px;
@@ -69,7 +68,7 @@
     bottom: 0;
     left: 0;
     
-    width: 100%;
+    width: 100vw;
     border: 3px solid var(--color-studio);
     border-radius: 15px;
     
@@ -122,12 +121,18 @@
     font-size: 24px;
   }
 
+
+  
   .itemContent h4 {
     font-size: 24px;
   }
 
   .itemContent p {
     font-size: 18px;
+  }
+
+  .itemContent::before {
+    width: 100%;
   }
 }
 
