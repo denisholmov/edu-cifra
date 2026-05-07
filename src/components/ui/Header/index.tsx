@@ -9,7 +9,7 @@ export const HeaderUI = () => {
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <a href="#get-started" className={styles.link}>
+            <a href="#cifra-mini" className={styles.link}>
               Продукты
             </a>
           </li>
@@ -19,7 +19,7 @@ export const HeaderUI = () => {
             </a>
           </li>
           <li className={styles.item}>
-            <a href="#contacts" className={styles.link}>
+            <a href="#connection" className={styles.link}>
               Контакты
             </a>
           </li>

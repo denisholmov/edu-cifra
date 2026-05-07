@@ -12,6 +12,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+
+    position: relative;
+    z-index: 2;
   }
   
   .title {

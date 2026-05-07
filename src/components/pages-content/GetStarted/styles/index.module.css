@@ -2,6 +2,7 @@
   background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 75%, #db6e00 100%);
   padding-top: 300px;
   padding-bottom: 70px;
+  height: 100vh;
 }
 
 .container {
@@ -35,7 +36,7 @@
   font-size: 32px;
   color: var(--color-shadow-mountain); 
   max-width: 700px;
-  margin-bottom: 65px;
+  margin-bottom: 100px;
 }
 
 .buttons {
