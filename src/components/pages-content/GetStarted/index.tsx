@@ -8,8 +8,8 @@ export const GetStarted = () => {
               <h1 className={styles.title}>Цифровые камеры</h1>
               <p className={styles.description}>Отечественный разработчик камер с техническим зрением для дроносферы и робототехники, а также обучающих наборов.</p>
               <ul className={styles.buttons}>
-                  <li><button className={styles.button}>Связаться с нами</button></li>
-                  <li><button className={`${styles.button} ${styles.buttonTransparent}`}>Узнать больше</button></li>
+                  <li><a className={styles.button} href="#connection">Связаться с нами</a></li>
+                  <li><a className={`${styles.button} ${styles.buttonTransparent}`} href="#advantages">Узнать больше</a></li>
               </ul>
           </div>
 

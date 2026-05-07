@@ -5,7 +5,8 @@
  font-family: Manrope;
   font-weight: 500;
 
-  background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 75%, #db6e00 100%);
+  background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 20%, #db6e00 65%, #db6e00 100%);
+
 
 }
 
@@ -72,7 +73,7 @@
 @media (max-width: 1024px) {
   .header {
     position: absolute;
-    background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 90%, #db6e00 100%);
+    background: var(--color-cheese-powder);
 
   }
 

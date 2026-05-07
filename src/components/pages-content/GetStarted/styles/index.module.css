@@ -1,5 +1,5 @@
 .getStarted {
-  background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 75%, #db6e00 100%);
+  background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 20%, #db6e00 65%, #db6e00 100%);
   padding-top: 300px;
   padding-bottom: 70px;
   height: 100vh;
@@ -47,12 +47,16 @@
 }
 
 .button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px 45px;
   border-radius: 7px;
   font-size: 35px;
   white-space: nowrap;
   background-color: var(--color-orange-danger);
   color: var(--color-white);
+  text-decoration: none;
   border: 2px solid var( --color-orange-danger);
 }
 
@@ -72,8 +76,7 @@
 }
 
 .image img {
-  width: 464px;
-  max-width: 100%;
+  width: 564px;
   height: auto;
   object-fit: cover;
 }
