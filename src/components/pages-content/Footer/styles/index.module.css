@@ -1,7 +1,26 @@
 .footer {
   background: var(--color-white);
   border-top: 1px solid rgba(49, 49, 49, 0.12);
+
+  position: relative;
+  overflow: hidden;
+
+  padding: 30px 0;
 }
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 5%;;
+  right: 0;
+  width: 571px;
+  height: 571px;
+  background: url('/images/emblem2.png') no-repeat center center;
+  opacity: 0.7;
+  z-index: 1;
+  rotate: 15deg;
+}
+
 
 .container {
   max-width: 1200px;
@@ -14,6 +33,9 @@
   justify-content: space-between;
   align-items: stretch;
   gap: 36px;
+
+  position: relative;
+  z-index: 2;
 }
 
 .brandBlock {

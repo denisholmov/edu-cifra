@@ -21,14 +21,14 @@ export const Footer = () => {
             </a>
 
             <div className={styles.socials}>
-              <a className={styles.social} href="#" aria-label="Telegram">
+              <a className={styles.social} href="https://t.me/BASkomplekt" aria-label="Telegram">
                 <img src="/images/telegram.png" alt="Telegram" />
               </a>
-              <a className={styles.social} href="#" aria-label="VK">
+              <a className={styles.social} href="https://vk.com/baskomplekt" aria-label="VK">
                 <img src="/images/vk.png" alt="VK" />
               </a>
-              <a className={styles.social} href="#" aria-label="Dzen">
-                <img src="/images/yandex.png" alt="yandex" />
+              <a className={styles.social} href="https://dzen.ru/baskomplekt" aria-label="Dzen">
+                <img src="/images/yandex.png" alt="Dzen" />
               </a>
             </div>
           </div>
