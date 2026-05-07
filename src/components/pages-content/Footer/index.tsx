@@ -46,12 +46,12 @@ export const Footer = () => {
               </a>
             </div>
 
-            <div className={styles.copyright}>
+            {/* <div className={styles.copyright}>
               <a className={styles.policy} href="#">
                 Политика обработки персональных данных
               </a>
               <span className={styles.copy}>© Все права защищены</span>
-            </div>
+            </div> */}
           </div>
         </div>
 
