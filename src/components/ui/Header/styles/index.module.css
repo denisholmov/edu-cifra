@@ -68,8 +68,8 @@
 
 @media (max-width: 1024px) {
   .header {
-    position: static;
-    background-color: #ffe5bf;
+    position: absolute;
+    background-color: var(--color-cheese-powder);
   }
 
   .container {

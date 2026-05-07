@@ -1,6 +1,6 @@
 .getStarted {
   background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 75%, #db6e00 100%);
-  padding-top: 240px;
+  padding-top: 300px;
   padding-bottom: 70px;
 }
 
@@ -96,9 +96,9 @@
 
 @media (max-width: 1024px) {
   .getStarted {
-    padding-top: 30px;
+    background: #ffe5bf;
+
     padding-bottom: 50px;
-    background: linear-gradient(180deg, #ffe5bf 0%, #ffe5bf 60%, #db6e00 100%);
   }
 
   .container {
@@ -136,7 +136,6 @@
 
 @media (max-width: 640px) {
   .getStarted {
-    padding-top: 36px;
     padding-bottom: 36px;
   }
 

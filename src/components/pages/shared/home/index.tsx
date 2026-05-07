@@ -13,6 +13,7 @@ import { Demo } from "@/components/pages-content/Demo";
 import { CifraMini } from "@/components/pages-content/CifraMini";
 import { AdvantagesCifraMini } from "@/components/pages-content/AdvantagesCifraMini";
 import { Characteristics } from "@/components/pages-content/Characteristics";
+import { Development } from "@/components/pages-content/Development";
 
 
 export const HomePage = () => {
@@ -31,6 +32,7 @@ export const HomePage = () => {
           <CifraMini />
           <AdvantagesCifraMini/>
           <Characteristics />
+          <Development />
       </main>
     </div>
   );
