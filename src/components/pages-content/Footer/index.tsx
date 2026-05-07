@@ -13,12 +13,12 @@ export const Footer = () => {
               для БАС и робототехники
             </p>
 
-            <a className={styles.contactLink} href="tel:+79956301425">
+            <p className={styles.contactLink}>
               +7 (995) 630-14-25
-            </a>
-            <a className={styles.contactLink} href="mailto:baskomplekt@yandex.ru">
+            </p>
+            <p className={styles.contactLink}>
               baskomplekt@yandex.ru
-            </a>
+            </p>
 
             <div className={styles.socials}>
               <a className={styles.social} href="https://t.me/BASkomplekt" aria-label="Telegram">
@@ -35,7 +35,7 @@ export const Footer = () => {
 
           <div className={styles.content}>
             <div className={styles.list}>
-              <a className={styles.item} href="#get-started">
+              <a className={styles.item} href="#cifra-mini">
                 Продукты
               </a>
               <a className={styles.item} href="#team">
