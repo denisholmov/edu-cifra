@@ -23,14 +23,30 @@
   white-space: nowrap;
 }
 
+.slider {
+  width: 100%;
+  position: relative;
+}
+
 .list {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 42px;
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
 }
 
 .member {
+  flex: 0 0 calc((100% - 72px) / 4);
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -79,13 +95,46 @@
   color: var(--color-shadow-mountain);
 }
 
+.controls {
+  display: none;
+}
+
+.controlsVisible {
+  position: absolute;
+  top: 50%;
+  left: -4px;
+  right: -4px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.controlButton {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-orange-danger);
+  color: var(--color-white);
+  font-size: 24px;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 4px 12px rgba(49, 49, 49, 0.2);
+}
+
+.controlButton:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 1100px) {
   .title {
     font-size: 52px;
   }
 
-  .list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .member {
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .name {
@@ -111,9 +160,13 @@
     font-size: 38px;
   }
 
-  .list {
-    grid-template-columns: 1fr;
-    gap: 22px;
+  .member {
+    flex-basis: 100%;
+  }
+
+  .controlsVisible {
+    left: -2px;
+    right: -2px;
   }
 
   .image {
