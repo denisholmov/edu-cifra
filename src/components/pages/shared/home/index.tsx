@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { AppHeader } from "@/components/features/AppHeader";
 
 import { GetStarted } from "@/components/pages-content/GetStarted";
@@ -20,7 +21,27 @@ import { Footer } from "@/components/pages-content/Footer";
 
 
 export const HomePage = () => {
- 
+  const [isScrollTopVisible, setIsScrollTopVisible] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const firstBlock = document.getElementById("get-started");
+      const triggerPoint = firstBlock
+        ? firstBlock.offsetTop + firstBlock.offsetHeight
+        : window.innerHeight;
+
+      setIsScrollTopVisible(window.scrollY > triggerPoint);
+    };
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const handleScrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -40,6 +61,14 @@ export const HomePage = () => {
           <Team />
       </main>
       <Footer />
+      <button
+        type="button"
+        className={`${styles.scrollTopButton} ${isScrollTopVisible ? styles.scrollTopButtonVisible : ""}`}
+        onClick={handleScrollTop}
+        aria-label="Прокрутить наверх"
+      >
+        <img src="/images/arrow.png" alt="" />
+      </button>
     </div>
   );
 };
