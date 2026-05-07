@@ -15,6 +15,7 @@ import { AdvantagesCifraMini } from "@/components/pages-content/AdvantagesCifraM
 import { Characteristics } from "@/components/pages-content/Characteristics";
 import { Development } from "@/components/pages-content/Development";
 import { Connection } from "@/components/pages-content/Connection";
+import { Team } from "@/components/pages-content/Team";
 
 
 export const HomePage = () => {
@@ -35,6 +36,7 @@ export const HomePage = () => {
           <Characteristics />
           <Development />
           <Connection />
+          <Team />
       </main>
     </div>
   );
