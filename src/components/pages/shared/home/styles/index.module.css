@@ -14,3 +14,11 @@
 .main {
   flex: 1;
 }
+
+img {
+  /* убираем выделением картинок */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none; 
+} 

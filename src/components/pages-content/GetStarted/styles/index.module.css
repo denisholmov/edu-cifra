@@ -98,7 +98,7 @@
 @media (max-width: 1024px) {
   .getStarted {
      padding-bottom: 50px;
-     background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 25%, #db6e00 90%, #db6e00 100%);
+     background: var(--color-cheese-powder);
   }
 
   .container {
