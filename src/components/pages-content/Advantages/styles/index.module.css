@@ -3,6 +3,7 @@
   font-weight: 500;
   padding: 50px 0;
   background-color: var(--color-white);
+  
 }
 
 .container {
@@ -15,6 +16,8 @@
 }
 
 .title {
+  position: relative;
+  z-index: 2;
   margin-bottom: 30px;
   font-family: Sansation;
   font-size: 48px;
@@ -23,6 +26,8 @@
 }
 
 .content {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
