@@ -67,7 +67,7 @@ export const HomePage = () => {
         onClick={handleScrollTop}
         aria-label="Прокрутить наверх"
       >
-        <img src="/images/arrow.png" alt="" />
+        <img src="/images/arrow.png" alt="" loading="lazy" decoding="async" />
       </button>
     </div>
   );

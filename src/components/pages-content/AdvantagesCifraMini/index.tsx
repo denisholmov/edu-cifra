@@ -7,7 +7,7 @@ export const AdvantagesCifraMini = () => {
         <ul className={styles.list}>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="/images/vision.png" alt="Техническое зрение" />
+                    <img src="/images/vision.png" alt="Техническое зрение" loading="lazy" decoding="async" />
                 </div>
                <div className={styles.itemContent}>
                <h3>Техническое зрение</h3>
@@ -16,7 +16,7 @@ export const AdvantagesCifraMini = () => {
             </li>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="/images/setting.png" alt="Открытость и SDK" />
+                    <img src="/images/setting.png" alt="Открытость и SDK" loading="lazy" decoding="async" />
                 </div>
                 <div className={styles.itemContent}>
                 <h3>Открытость и SDK</h3>
@@ -25,7 +25,7 @@ export const AdvantagesCifraMini = () => {
             </li>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="/images/feather.png" alt="Миниатюрность и легкость" />
+                    <img src="/images/feather.png" alt="Миниатюрность и легкость" loading="lazy" decoding="async" />
                 </div>
                 <div className={styles.itemContent}>
                 <h3>Миниатюрность и легкость</h3>
@@ -35,7 +35,7 @@ export const AdvantagesCifraMini = () => {
             </li>
             <li className={styles.item}>
                 <div className={styles.icon}>
-                    <img src="/images/frame.png" alt="Качественная картинка" />
+                    <img src="/images/frame.png" alt="Качественная картинка" loading="lazy" decoding="async" />
                 </div>
                 <div className={styles.itemContent}>
                 <h3>Качественная картинка</h3>

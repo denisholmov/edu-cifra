@@ -9,7 +9,7 @@ export const CifraMini = () => {
                     <p className={styles.description}>Базовая модель камеры предназначена для решения задач видеозахвата и обработки цифрового изображения.</p>
 
                     <div className={styles.image}>
-                        <img src="/images/cifra-mini-2.png" alt="CifraMini" />
+                        <img src="/images/cifra-mini-2.png" alt="CifraMini" loading="lazy" decoding="async" />
                     </div>  
                 </div>
             </div>

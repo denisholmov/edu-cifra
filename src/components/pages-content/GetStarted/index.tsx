@@ -14,7 +14,7 @@ export const GetStarted = () => {
           </div>
 
           <div className={styles.image}>
-              <img src="/images/emblem.png" alt="Эмблема компании" />
+              <img src="/images/emblem.png" alt="Эмблема компании" loading="eager" fetchPriority="high" />
           </div>
         </div>
     </section>
