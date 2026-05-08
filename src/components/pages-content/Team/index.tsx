@@ -57,7 +57,7 @@ export const Team = () => {
           <ul className={styles.list} ref={listRef}>
             <li className={styles.member}>
               <div className={styles.image}>
-                <img src="/images/Raf.jpg" alt="Рафаэль Кильметов" loading="lazy" decoding="async" />
+                <img src="/images/Raf.jpg" alt="Рафаэль Кильметов" loading="eager" decoding="async" />
               </div>
               <h3 className={styles.name}>Рафаэль Кильметов</h3>
               <p className={styles.role}>Генеральный директор</p>
@@ -65,7 +65,7 @@ export const Team = () => {
             </li>
             <li className={styles.member}>
               <div className={styles.image}>
-                <img src="/images/Den.jpg" alt="Денис Холмов" loading="lazy" decoding="async" />
+                <img src="/images/Den.jpg" alt="Денис Холмов" loading="eager" decoding="async" />
               </div>
               <h3 className={styles.name}>Денис Холмов</h3>
               <p className={styles.role}>Программист</p>
@@ -73,7 +73,7 @@ export const Team = () => {
             </li>
             <li className={styles.member}>
               <div className={styles.image}>
-                <img src="/images/Anton.jpg" alt="Антон Дойников" loading="lazy" decoding="async" />
+                <img src="/images/Anton.jpg" alt="Антон Дойников" loading="eager" decoding="async" />
               </div>
               <h3 className={styles.name}>Антон Дойников</h3>
               <p className={styles.role}>Конструктор</p>
@@ -81,7 +81,7 @@ export const Team = () => {
             </li>
             <li className={styles.member}>
               <div className={styles.image}>
-                <img src="/images/Anna.jpg" alt="Анна Холмова" loading="lazy" decoding="async" />
+                <img src="/images/Anna.jpg" alt="Анна Холмова" loading="eager" decoding="async" />
               </div>
               <h3 className={styles.name}>Анна Холмова</h3>
               <p className={styles.role}>Методист</p>
