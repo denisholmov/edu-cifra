@@ -8,6 +8,7 @@
   font-family: Manrope;
   font-weight: 500;
   src:
+    url("/fonts/Manrope-Medium.woff2") format("woff2"),
     url("/fonts/Manrope-Medium.woff") format("woff"),
     url("/fonts/Manrope-Medium.ttf") format("truetype");
   font-display: swap;
@@ -17,6 +18,7 @@
   font-family: Sansation;
   font-weight: 700;
   src:
+    url("/fonts/Sansation-Bold.woff2") format("woff2"),
     url("/fonts/Sansation-Bold.woff") format("woff"),
     url("/fonts/Sansation-Bold.ttf") format("truetype");
   font-display: swap;
