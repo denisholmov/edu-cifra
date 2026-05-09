@@ -7,7 +7,7 @@ export const LevelEducation = () => {
         <h2 className={styles.title}>Для любого уровня образования</h2>
         <ul className={styles.list}>
             <li className={styles.item}>
-                <h3 className={styles.itemTitle}>Вузы и сузы</h3>
+                <h3 className={styles.itemTitle}>Вузы</h3>
                 <p className={styles.itemDescription}>Для развития инноватики и инженерной культуры по актуальным направлениям: робототехники и беспилотных систем</p>
             </li>
             <li className={styles.item}>
