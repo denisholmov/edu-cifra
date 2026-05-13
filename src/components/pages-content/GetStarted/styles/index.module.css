@@ -2,7 +2,7 @@
   background: linear-gradient(90deg, #ffe5bf 0%, #ffe5bf 20%, #db6e00 65%, #db6e00 100%);
   padding-top: 200px;
   padding-bottom: 70px;
-  height: 100vh;
+  height: 100%;
 }
 
 .container {
