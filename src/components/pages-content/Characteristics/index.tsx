@@ -49,7 +49,7 @@ export const Characteristics = () => {
                 </li>
                 <li className={styles.item}>
                     <h3 className={styles.itemTitle}>Габариты</h3>
-                    <p className={styles.itemDescription}>45*35*35 см</p>
+                    <p className={styles.itemDescription}>45*35*35 мм</p>
                 </li>
                 <li className={styles.item}>
                     <h3 className={styles.itemTitle}>Температурный диапазон</h3>
