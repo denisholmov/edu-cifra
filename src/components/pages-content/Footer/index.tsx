@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className={styles.container}>
         <div className={styles.mainRow}>
           <div className={styles.brandBlock}>
-            <div className={styles.brand}><img src="/images/logo.png" alt="Логотип компании" loading="lazy" decoding="async" /></div>
+            <div className={styles.brand}><img src="/images/logo.png" alt="БАСкомплект — логотип" loading="lazy" decoding="async" /></div>
             <p className={styles.description}>
               Отечественный разработчик цифровых камер
               <br />
