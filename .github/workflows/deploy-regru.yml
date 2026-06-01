@@ -1,0 +1,38 @@
+# Деплой на Reg.ru (хостинг) при push в main.
+#
+# GitHub → Settings → Secrets and variables → Actions:
+#   REGRU_FTP_HOST       — FTP-сервер (из панели Reg.ru)
+#   REGRU_FTP_USER       — логин FTP
+#   REGRU_FTP_PASSWORD   — пароль FTP
+#   REGRU_FTP_REMOTE_DIR — папка сайта, например www/baskomplekt.ru/
+
+name: Deploy to Reg.ru
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy dist via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.REGRU_FTP_HOST }}
+          username: ${{ secrets.REGRU_FTP_USER }}
+          password: ${{ secrets.REGRU_FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.REGRU_FTP_REMOTE_DIR }}
+          dangerous-clean-slate: false
