@@ -1,0 +1,38 @@
+# Деплой на Timeweb (виртуальный хостинг по FTP) при push в main.
+#
+# Секреты в GitHub: Settings → Secrets and variables → Actions:
+#   TIMEWEB_FTP_HOST      — хост FTP (из панели Timeweb, например server123.timeweb.ru)
+#   TIMEWEB_FTP_USER      — логин FTP
+#   TIMEWEB_FTP_PASSWORD  — пароль FTP
+#   TIMEWEB_FTP_REMOTE_DIR — путь к public_html (например / или /baskomplekt.ru/public_html)
+
+name: Deploy to Timeweb
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy dist via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.TIMEWEB_FTP_HOST }}
+          username: ${{ secrets.TIMEWEB_FTP_USER }}
+          password: ${{ secrets.TIMEWEB_FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.TIMEWEB_FTP_REMOTE_DIR }}
+          dangerous-clean-slate: false
